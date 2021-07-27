@@ -1656,3 +1656,36 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Banner */
+
+	.banner {
+		background: #009579;
+	}
+
+	.banner__content {
+		padding: 16px;
+		min-width: 100vw;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+
+	.banner__text {
+		flex-grow: 1;
+		line-height: 1.4;
+		font-family: "Quicksand", sans-serif;
+		text-align: center;
+	}
+
+	.banner__close {
+		background: none;
+		border: none;
+		cursor: pointer;
+		margin-right: 3rem;
+	}
+
+		.banner__text,
+		.banner__close > span {
+			color: #ffffff;
+		}
